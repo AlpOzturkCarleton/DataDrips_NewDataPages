@@ -1,0 +1,140 @@
+/* Load local font files */
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/Futura-Book.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: url("../fonts/Futura-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body::before {
+  content: "";
+
+  position: fixed;
+  top: 25px;
+  right: 35px;
+
+  width: 230px;
+  height: 70px;
+
+  background-image: url("../assets/macologo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  z-index: 1000;
+}
+
+:root {
+  --cu-red: #d00000;
+  --light-bg: #ffffff;
+}
+
+.reveal .slides section {
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+
+.reveal {
+  background:var(--light-bg);
+  font-family: "Futura", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #222;
+}
+
+.reveal h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #000;
+}
+
+.reveal h2 {
+  font-size: 1.6em;
+  font-weight: 700;
+  color: #000;
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+/* Paragraph text */
+.reveal p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* Links */
+.reveal a {
+    color: #2427f2;
+};
+
+.reveal .slides {
+  position: relative;
+}
+
+.reveal .slides::before {
+  content: "";
+  position: fixed;
+
+  left: 0;
+  bottom: 80px;
+
+  width: 100%;
+  height: 4px;
+
+  background: black;
+  z-index: 11;
+}
+
+.reveal .slides::after {
+  content: "";
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+
+  background: var(--cu-red);
+  z-index: 10;
+}
+
+body::after {
+  content: "";
+
+  position: fixed;
+
+  bottom: 68px;
+  left: 50%;
+
+  width: 18px;
+  height: 18px;
+
+  background: var(--light-bg);
+
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+
+  transform: translateX(-50%) rotate(-45deg);
+
+  z-index: 12;
+}
+
+.reveal {
+  font-family:
+    "Futura PT",
+    "Futura",
+    "Trebuchet MS",
+    Arial,
+    sans-serif;
+}
+
