@@ -1,27 +1,144 @@
-/* Load local font files */
+/* =========================
+   VARIABLES
+   ========================= */
+
+:root {
+  --cu-red: #d00000;
+  --text-color: #222;
+  --bg-color: #ffffff;
+  --accent-color: #2427f2;
+
+  --footer-height: clamp(60px, 8vh, 90px);
+}
+
+
+/* =========================
+   FONTS
+   ========================= */
+
 @font-face {
   font-family: "Futura";
-  src: url("../fonts/Futura-Book.woff2") format("woff2");
+  src: url("../fonts/FuturaCyrillicBook.ttf");
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Futura";
-  src: url("../fonts/Futura-Bold.woff2") format("woff2");
+  src: url("../fonts/FuturaCyrillicBold.ttf");
   font-weight: 700;
-  font-style: normal;
 }
+
+
+/* =========================
+   BASE
+   ========================= */
+
+.reveal {
+  font-family:
+    "Futura",
+    "Trebuchet MS",
+    Arial,
+    sans-serif;
+    font-size: clamp(20px, 1.5vw, 32px);
+
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+
+/* =========================
+   SLIDE LAYOUT
+   ========================= */
+
+.reveal .slides section {
+  box-sizing: border-box;
+
+  padding:
+    3rem
+    4rem
+    calc(var(--footer-height) + 1rem)
+    4rem;
+
+  text-align: center;
+}
+
+
+/* Content slides */
+
+.reveal .slides section.left-align {
+  text-align: left;
+}
+
+
+/* =========================
+   HEADINGS
+   ========================= */
+
+.reveal h1 {
+  font-size: clamp(40px, 4vw, 80px);
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0.6em;
+}
+
+.reveal h2 {
+  font-size: clamp(28px, 2.5vw, 56px);
+  font-weight: 700;
+  color: black;
+  margin-bottom: 0.8em;
+}
+
+.reveal h3 {
+  font-size: clamp(20px, 2.5vw, 48px);
+  font-weight: 700;
+}
+
+
+/* =========================
+   BODY TEXT
+   ========================= */
+
+.reveal p {
+  font-size: clamp(18px, 1.4vw, 30px);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.reveal li {
+  font-size: clamp(18px, 1.4vw, 30px);
+  line-height: 1.6;
+  margin-bottom: 0.4rem;
+}
+
+.reveal ul,
+.reveal ol {
+  margin-top: 1rem;
+}
+
+
+/* =========================
+   LINKS
+   ========================= */
+
+.reveal a {
+  color: var(--accent-color);
+}
+
+
+/* =========================
+   CARLETON LOGO
+   ========================= */
 
 body::before {
   content: "";
 
   position: fixed;
-  top: 25px;
-  right: 35px;
 
-  width: 230px;
-  height: 70px;
+  top: 2vh;
+  right: 2vw;
+
+  width: clamp(140px, 15vw, 220px);
+  height: clamp(40px, 5vw, 70px);
 
   background-image: url("../assets/macologo.png");
   background-repeat: no-repeat;
@@ -31,110 +148,91 @@ body::before {
   z-index: 1000;
 }
 
-:root {
-  --cu-red: #d00000;
-  --light-bg: #ffffff;
-}
 
-.reveal .slides section {
-    padding-top: 80px;
-    box-sizing: border-box;
-}
+/* =========================
+   FOOTER
+   ========================= */
 
+.reveal .slides::after {
+  content: "";
 
-.reveal {
-  background:var(--light-bg);
-  font-family: "Futura", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-  color: #222;
-}
+  position: fixed;
 
-.reveal h1 {
-  font-size: 2.2em;
-  font-weight: 700;
-  color: #000;
-}
+  left: 0;
+  bottom: 0;
 
-.reveal h2 {
-  font-size: 1.6em;
-  font-weight: 700;
-  color: #000;
-}
+  width: 100%;
+  height: var(--footer-height);
 
-.reveal h3 {
-  font-size: 1.2em;
-  font-weight: 600;
-}
+  background: var(--cu-red);
 
-/* Paragraph text */
-.reveal p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-}
-
-/* Links */
-.reveal a {
-    color: #2427f2;
-};
-
-.reveal .slides {
-  position: relative;
+  z-index: 10;
 }
 
 .reveal .slides::before {
   content: "";
+
   position: fixed;
 
   left: 0;
-  bottom: 80px;
+  bottom: var(--footer-height);
 
   width: 100%;
-  height: 4px;
+  height: 3px;
 
   background: black;
+
   z-index: 11;
 }
 
-.reveal .slides::after {
-  content: "";
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
 
-  background: var(--cu-red);
-  z-index: 10;
+/* =========================
+   PAGE NUMBERS
+   ========================= */
+
+.reveal .slide-number {
+  right: 20px;
+  bottom: 12px;
+
+  color: white;
+  background: transparent;
+
+  z-index: 20;
 }
 
-body::after {
-  content: "";
 
-  position: fixed;
+/* =========================
+   TITLE SLIDE
+   ========================= */
 
-  bottom: 68px;
-  left: 50%;
-
-  width: 18px;
-  height: 18px;
-
-  background: var(--light-bg);
-
-  border-left: 4px solid black;
-  border-bottom: 4px solid black;
-
-  transform: translateX(-50%) rotate(-45deg);
-
-  z-index: 12;
+.reveal section.title-slide {
+  text-align: center;
 }
 
-.reveal {
-  font-family:
-    "Futura PT",
-    "Futura",
-    "Trebuchet MS",
-    Arial,
-    sans-serif;
+.reveal section.title-slide h1 {
+  margin-top: 10%;
 }
 
+
+/* =========================
+   AGENDA / CONTENT SLIDES
+   ========================= */
+
+.reveal section.left-align ul {
+  margin-left: 1.5em;
+}
+
+.reveal section.left-align li {
+  text-align: left;
+}
+
+
+/* =========================
+   BLOCKQUOTES
+   ========================= */
+
+.reveal blockquote {
+  border-left: 5px solid var(--cu-red);
+  padding-left: 1em;
+  font-style: italic;
+}
