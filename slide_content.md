@@ -43,27 +43,30 @@ dataservices@carleton.ca
 
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 
-## Let's Talk About You
-
-- How often would you use the data pages? 
-<section data-markdown>
-<textarea data-template>
-
-## Live Poll
-
 <iframe
   src="https://app.wooclap.com/events/TRAJUZ/questions/6786cc812cb8969339ff0459"
   width="100%"
   height="600"
   frameborder="0"
-  allowfullscreen
-  mozallowfullscreen>
+  allowfullscreen>
 </iframe>
 
-</textarea>
-</section>
 
 --- 
+
+<section>
+    <h2>Live Poll</h2>
+
+    <iframe
+        src="https://app.wooclap.com/events/TRAJUZ/questions/6786cc812cb8969339ff0459"
+        width="100%"
+        height="600"
+        frameborder="0"
+        allowfullscreen>
+    </iframe>
+</section>
+
+---
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 
 ## Data Pages High-Level Overview
