@@ -46,9 +46,24 @@ dataservices@carleton.ca
 ## Let's Talk About You
 
 - How often would you use the data pages? 
-INSERT WOOCLAP IFRAME? 
----
+<section data-markdown>
+<textarea data-template>
 
+## Live Poll
+
+<iframe
+  src="https://app.wooclap.com/events/TRAJUZ/questions/6786cc812cb8969339ff0459"
+  width="100%"
+  height="600"
+  frameborder="0"
+  allowfullscreen
+  mozallowfullscreen>
+</iframe>
+
+</textarea>
+</section>
+
+--- 
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 
 ## Data Pages High-Level Overview
