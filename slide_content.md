@@ -40,31 +40,6 @@ Additional information:
 dataservices@carleton.ca
 
 ---
-
-<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
-
-<iframe
-  src="https://app.wooclap.com/events/TRAJUZ/questions/6786cc812cb8969339ff0459"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
-
-
---- 
-
-<section>
-<iframe
-  src="https://app.wooclap.com/events/TRAJUZ/questions/6a04b8224943be8f7b586c3b"
-  width="100%"
-  height="600"
-  frameborder="0"
-  allowfullscreen>
-</iframe>
-</section>
-
----
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 
 ## Data Pages High-Level Overview
@@ -74,13 +49,6 @@ dataservices@carleton.ca
   - Finding Data
   - Data Services
   - Research Data Management
-
----
-
-## What About You?
-
-- [Relevant discussion topic]
-- Any questions for me?
 
 ---
 
