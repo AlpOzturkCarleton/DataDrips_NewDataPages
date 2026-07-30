@@ -55,15 +55,13 @@ dataservices@carleton.ca
 --- 
 
 <section>
-    <h2>Live Poll</h2>
-
-    <iframe
-        src="https://app.wooclap.com/events/TRAJUZ/questions/6786cc812cb8969339ff0459"
-        width="100%"
-        height="600"
-        frameborder="0"
-        allowfullscreen>
-    </iframe>
+<iframe
+  src="https://app.wooclap.com/events/TRAJUZ/questions/6a04b8224943be8f7b586c3b"
+  width="100%"
+  height="600"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
 </section>
 
 ---
