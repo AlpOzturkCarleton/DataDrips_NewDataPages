@@ -1,67 +1,124 @@
 <!-- .slide: data-transition="none-in slide-out" class="title-slide" -->
 # The New* Data Pages
+
 *not everything is new*
 
-Presenter Name  
-Position  
-Date
+Alp Ozturk </br>
+August 13th, 2026
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
-</br></br></br></br></br></br>
-## We respectfully acknowledge the Algonquin Nation, whose traditional and unceded territory we are gathered upon today.
+# Land Acknowledgement
 
----
-
-<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
-
-## Data Drips Series: Sessions
-
-Final session in the series!
-
-Additional information:
-- Slides are posted on the Data Drips Series page after sessions are conducted.
-- Sessions run from 12:00 PM to 12:30 PM.
+We respectfully acknowledge the Algonquin Nation, whose traditional and unceded territory we are gathered upon today.
 
 ---
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
-## Agenda
+# Data Drips Special Topics Sessions
 
-- Overview of Data Pages
-- Finding Data
-- Data Services
-- Research Data Management
-- Questions
+- Final Session for the Fall!
+- Slides will be shared with attendants after.
+
+---
+<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
+# Agenda
+
+- "The Data Pages" Spring/Summer project
+- Look at the pages!
+- Reveal.js
+- What's next for Data Drips?
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
-## Contact
+# Contact
 
 dataservices@carleton.ca
 
 ---
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
+# Data Pages Project
 
-## Data Pages High-Level Overview
-
-- Originally, everything was grouped under "Find Data".
-- The site now consists of three pillars:
-  - Finding Data
-  - Data Services
-  - Research Data Management
-
----
-
-## Thank You!
-
-**dataservices@carleton.ca**
+- Redesign and reorganize data & research data management content
+- Team of 3
+  -  Alp: Data, Data Deposit and Data Services content
+  - Heather: Research Data Management (RDM), Data Lifecycle & Data Management Plans (DMP) content
+  - Betsy: Data content support, design & language support
+- Shout out to Shelley for all the Drupal support!
 
 ---
+<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
+# Data Pages Project (Continued)
 
-## Feedback
+- Catalogued all the data & RDM pages
+- Used Notebook LLM to best disperse content across fields
+- Much of the content already existed
+- Just scattered across pages and presentations
+- Design & language focused
+- Broke down content between:
+  - Functional use
+  - Service provision
+  - Research support
+- Only created new content to fill in gaps
 
-We'd love to hear your feedback!
+In other words...
 
-https://carletonu.az1.qualtrics.com/jfe/form/SV_5gLYBCBFPPTGHoa
+---
+<!-- .slide: data-transition="none-in slide-out" -->
+<div class="center-image">
+<img src = "assets/previouslyiondata.drawio.png" style="max-width: 90%; max-height: 70vh;"> </img>
 
-[QR Code Image]
+--- 
+<!-- .slide: data-transition="none-in slide-out" -->
+<div class="center-image">
+<img src = "assets/onthisseasonofdata.drawio.png" style="max-width: 90%; max-height: 70vh;"> </img>
+
+---
+<!-- .slide: data-transition="none-in slide-out" -->
+<div class="center-image">
+<a href = "https://library.carleton.ca/">
+<img src = "assets/macordumfrontpage.png" style="max-width: 90%; max-height: 70vh;"> </img> </a>
+
+---
+<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
+# Reveal.js
+
+- Excellent for content in packages
+- Markdown & HTML are more machine-readable and lightweight than PPTX
+- This presentation hosted on GitHub
+- Customizable
+- Workflow:
+  - Built the slide deck in PowerPoint
+  - Had Copilot convert information to Markdown
+
+---
+<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
+# What's Next for Data Drips?...
+
+## Fall 2026
+
+- Data Services
+- Finding Data
+- Introduction to Research Data Management & the Data Lifecycle
+- Data Management Plans
+- Data Deposit
+- Depositing Data in Borealis
+- Best Practices in Research Data Management – Part I
+--- 
+<!-- .slide: data-transition="none-in slide-out" class="left-align" -->
+# ...What's Next for Data Drips?
+## Winter 2027
+
+- Introduction to Research Data Management & the Data Lifecycle
+- Data Management Plans
+- Data Deposit
+- Depositing Data in Borealis
+- Best Practices in Research Data Management – Part I
+- Best Practices in Research Data Management – Part II
+- Data Privacy
+- Data Anonymization
+
+---
+<!-- .slide: data-transition="none-in slide-out" -->
+# Thank You!
+
+- **dataservices@carleton.ca**

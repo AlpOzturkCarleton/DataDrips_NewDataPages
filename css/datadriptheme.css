@@ -69,6 +69,13 @@
   text-align: left;
 }
 
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 
 /* =========================
    HEADINGS
