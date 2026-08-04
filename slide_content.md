@@ -52,15 +52,12 @@ dataservices@carleton.ca
 - Catalogued all the data & RDM pages
 - Used Notebook LLM to best disperse content across fields
 - Much of the content already existed
-- Just scattered across pages and presentations
+  - Just scattered across pages and presentations
 - Design & language focused
 - Broke down content between:
   - Functional use
   - Service provision
   - Research support
-- Only created new content to fill in gaps
-
-In other words...
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
