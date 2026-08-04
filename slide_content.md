@@ -40,7 +40,7 @@ dataservices@carleton.ca
 
 - Redesign and reorganize data & research data management content
 - Team of 3
-  -  Alp: Data, Data Deposit and Data Services content
+  - Alp: Data, Data Deposit and Data Services content
   - Heather: Research Data Management (RDM), Data Lifecycle & Data Management Plans (DMP) content
   - Betsy: Data content support, design & language support
 - Shout out to Shelley for all the Drupal support!
