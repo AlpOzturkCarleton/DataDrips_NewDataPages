@@ -100,7 +100,7 @@ dataservices@carleton.ca
 - Data Deposit
 - Depositing Data in Borealis
 - Best Practices in Research Data Management
-- Folder Directories
+- Folder and File Directories
 --- 
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 # ...What's Next for Data Drips?
@@ -110,8 +110,8 @@ dataservices@carleton.ca
 - Data Management Plans
 - Data Deposit
 - Depositing Data in Borealis
-- Best Practices in Research Data Management
-- Folder Directories
+- Best Practices in Research Data Management – Part I
+- Folder and File Directories
 - Data Privacy
 - Data Anonymization
 
