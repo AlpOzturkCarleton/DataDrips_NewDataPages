@@ -16,8 +16,8 @@ We respectfully acknowledge the Algonquin Nation, whose traditional and unceded 
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 # Data Drips Special Topics Sessions
 
-- Final Session for the Fall!
-- Slides will be shared with attendants after.
+- Final Special Topic Data Drip for the Summer!
+- Slide URLs will be shared via email.
 
 ---
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
@@ -42,8 +42,8 @@ dataservices@carleton.ca
 - Team of 3
   - Alp: Data, Data Deposit and Data Services content
   - Heather: Research Data Management (RDM), Data Lifecycle & Data Management Plans (DMP) content
-  - Betsy: Data content support, design & language support
-- Shout out to Shelley for all the Drupal support!
+  - Betsy: Data content, design & language support
+- Shout out to Shelley for Drupal support!
 
 ---
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
@@ -54,7 +54,7 @@ dataservices@carleton.ca
 - Much of the content already existed
   - Just scattered across pages and presentations
 - Design & language focused
-- Broke down content between:
+- Broke content down with focus on:
   - Functional use
   - Service provision
   - Research support
@@ -99,7 +99,8 @@ dataservices@carleton.ca
 - Data Management Plans
 - Data Deposit
 - Depositing Data in Borealis
-- Best Practices in Research Data Management – Part I
+- Best Practices in Research Data Management
+- Folder Directories (In Progress)
 --- 
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 # ...What's Next for Data Drips?
@@ -109,10 +110,10 @@ dataservices@carleton.ca
 - Data Management Plans
 - Data Deposit
 - Depositing Data in Borealis
-- Best Practices in Research Data Management – Part I
-- Best Practices in Research Data Management – Part II
-- Data Privacy
-- Data Anonymization
+- Best Practices in Research Data Management
+- Folder Directories (In Progress)
+- Data Privacy (In Progress)
+- Data Anonymization (In Progress)
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
