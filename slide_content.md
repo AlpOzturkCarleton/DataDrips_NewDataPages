@@ -81,7 +81,7 @@ dataservices@carleton.ca
 
 - Excellent for content in packages
 - Markdown & HTML are more machine-readable and lightweight than PPTX
-- This presentation hosted on GitHub
+- This presentation hosted in GitHub
 - Customizable
 - Workflow:
   - Built the slide deck in PowerPoint
@@ -100,7 +100,7 @@ dataservices@carleton.ca
 - Data Deposit
 - Depositing Data in Borealis
 - Best Practices in Research Data Management
-- Folder Directories (In Progress)
+- Folder Directories
 --- 
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
 # ...What's Next for Data Drips?
@@ -111,9 +111,9 @@ dataservices@carleton.ca
 - Data Deposit
 - Depositing Data in Borealis
 - Best Practices in Research Data Management
-- Folder Directories (In Progress)
-- Data Privacy (In Progress)
-- Data Anonymization (In Progress)
+- Folder Directories
+- Data Privacy
+- Data Anonymization
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
