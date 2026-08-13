@@ -62,18 +62,18 @@ dataservices@carleton.ca
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
 <div class="center-image">
-<img src = "assets/previouslyiondata.drawio.png" style="max-width: 90%; max-height: 70vh;"> </img>
+<img src = "assets/previouslyiondata.drawio.png" style="max-width: 90%; max-height: 60vh;"> </img>
 
 --- 
 <!-- .slide: data-transition="none-in slide-out" -->
 <div class="center-image">
-<img src = "assets/onthisseasonofdata.drawio.png" style="max-width: 90%; max-height: 70vh;"> </img>
+<img src = "assets/onthisseasonofdata.drawio.png" style="max-width: 90%; max-height: 60vh;"> </img>
 
 ---
 <!-- .slide: data-transition="none-in slide-out" -->
 <div class="center-image">
 <a href = "https://library.carleton.ca/">
-<img src = "assets/macordumfrontpage.png" style="max-width: 90%; max-height: 70vh;"> </img> </a>
+<img src = "assets/macordumfrontpage.png" style="max-width: 90%; max-height: 60vh;"> </img> </a>
 
 ---
 <!-- .slide: data-transition="none-in slide-out" class="left-align" -->
